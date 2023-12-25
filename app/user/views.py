@@ -9,5 +9,3 @@ from user.serializers import UserSerializer
 class CreateUserView(generics.CreateAPIView):
     """Creater a new user in the system."""
     serializer_class = UserSerializer
-
-
